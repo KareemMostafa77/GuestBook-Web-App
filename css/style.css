@@ -1,0 +1,38 @@
+/* Index File */
+
+header{
+    background-image: url(../images/indexbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.layout{
+    background-color: rgba(0, 0, 0, .7);
+    height: inherit;
+}
+
+/* Hover Of Home */
+header .navbar a:hover {
+    background-color: white !important;
+    color: #dc3545 !important;
+    
+}
+
+@media (max-width: 767.98px) {
+    .navbar{
+        background:#3a3d42 !important;
+    }
+}
+.form-control:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem #dc3545;
+} 
+/*------------------------------------------------------*/
+
+
+
+
+
+
+
+
+

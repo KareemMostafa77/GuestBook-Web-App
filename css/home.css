@@ -1,0 +1,56 @@
+
+header{
+    background-image: url(../images/indexbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.layout{
+    background-color: rgba(0, 0, 0, .7);
+    height: inherit;
+}
+
+.home-app{
+    width: 90%;
+    height: 90%;
+}
+
+.anotherUserBook{
+    background: black !important;
+    display: none ;
+    position:absolute;
+    height:100% !important;
+}
+
+/* to control on size of myBook page */
+@media (min-width: 767.98px) {
+    .anotherUserBook,.myBook,.searchResult,.chatWindow{
+        height:100% !important;
+    }
+}
+
+.esc{
+    top:5px;
+    right:50px;
+    cursor:pointer;
+}
+
+.send{
+    top:5px;
+    left:50px;
+    cursor:pointer;
+}
+
+
+.esc:hover , .send:hover{
+    background:#dc3545;
+}
+
+.myBook,.searchResult,.chatWindow{
+    background: Black !important;
+    display:none;
+    position:absolute;
+    
+}
+
+
+
